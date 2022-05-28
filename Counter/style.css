@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+h1 {
+    color: #04042c;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+span{
+    font-size: 60px;
+    color: #257d25;
+    margin: 5%;
+}
+
+.add {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border-color: #257d25;
+}
+
+.sub{
+    padding: 5px 10px;
+    border-radius: 8px;
+    border-color: #257d25;    
+}
+
+.rs {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border-color: #257d25;
+}
+
