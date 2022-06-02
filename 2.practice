@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus-Minus</title>
+</head>
+<body>
+    <input type="screen" value="" id="number1" placeholder="Please enter 1st number"><br>
+    <input type="screen" value="" id="number2" placeholder="Please enter 2nd number"><br>
+    <button onclick="return add()" id="ADD">Plus</button><br>
+    <button onclick="return sub()" id="SUB">Minus</button><br>
+    <button onclick="return mul()">Multiply</button><br>
+    <button onclick="return div()">Divide</button><br>
+
+    <input type="screen" value="" id="numbers"><br>
+    <button onclick="return squrt()">Square Root</button><br>
+
+    <span id="result">Result:</span>
+
+    <script>
+        let num1 = parseInt(document.getElementById("number1").value);
+        let num2 = parseInt(document.getElementById("number2").value);
+        
+        
+        function add(){
+        document.getElementById('result').innerHTML=num1+num2;
+        }
+
+        function sub(){
+        document.getElementById('result').innerHTML=num1-num2;
+        }
+        function mul(){
+        document.getElementById('result').innerHTML=num1*num2;
+        }
+
+        function div(){
+        document.getElementById('result').innerHTML=num1/num2;
+        }
+
+        function squrt() {
+            let nums = parseInt(document.getElementById('numbers').value);
+            document.getElementById('result').innerHTML=Math.sqrt(nums);
+        }
+    </script>
+</body>
+</html>
