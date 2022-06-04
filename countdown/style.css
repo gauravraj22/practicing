@@ -1,5 +1,25 @@
+body{
+    background-color: yellow;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .time{
+    background-color: black;
     border: none;
-    width: 40px;
+    width: 80px;
     height: 70px;
+    color: red;
+    font-size: 20px;
+}
+.h{
+    width: 80px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 8px;
+    border-style: groove;
+    font-size: 15px;
+    background-color: yellow;
 }
