@@ -23,5 +23,10 @@ function calculate(){
     if(buttonText == "="){
         screen.value = eval(screenValue)
     }
+    
+    if(buttonText == "⌫"){
+        screen.value = screenValue.substr(0,screenValue.length-1);
+        return;
+    }
 }
 
